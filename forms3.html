@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> forms</title>
+    </head>
+    <body>
+    
+    
+            <fieldset  body style="background-color: rgb(136, 237, 242); border:6px solid">
+
+                <legend> Survey Form </legend>
+            <li><label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name"> <br> <br>
+            <li><label for="email">Email id:</label>
+            <input type="email" id="email" placeholder="******@gmail.com" required><br> <br>
+            <li><label for="password">Password:</label>
+            <input type="password" id="password" placeholder="*********"  required> <br><br>
+            
+            <li><label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age please" required> <br><br>
+             </label>
+             <li><label for="option">Which option best describe your current role?:</label>
+             <select id="type">  
+                <option value="student">student</option>
+                <option value="teacher">teacher</option>
+                <option value="other">other</option>
+                </select> <br><br>
+               <li><label for="option">How likely is that you would recommend this cource to a friend?:</label>
+                <label for="recommend">
+                    
+                    <input type="radio" name="recommend" value="choice">
+                    definetly 
+                    <input type="radio" name="recommend" value="choice">
+                    may be
+                    <input type="radio" name="recommend" value="choice">
+                    not sure <br> <br>
+
+                   <li> <label for="option"> What do you like most in the course?:</label>
+                    <select id="type">  
+                        <option value="select">select </option>
+                        <option value="html">html </option>
+                        <option value="css">css</option>
+                        <option value="java script">java script</option>
+                        <option value="the quiz">the quiz</option> </select> <br><br>
+                        <li><label for="option"> Things that should be improved in future? (click all that apply) </label>
+                        <lable for="checkbox">
+                            <input type="checkbox" value="yes">
+                            front end projects
+                            </lable>
+                            <lable for="checkbox">
+                                <input type="checkbox" value="yes">
+                                back end projects 
+                                </lable>
+                                <lable for="checkbox">
+                                    <input type="checkbox" value="yes">
+                                    data visualisation 
+                                    </lable><br><br>
+                                    <button type="submit">Submit</button><br><br>
+                <button type="reset">Reset Form</button> </fieldset>
+                </form>
+                </body>
+                </html>
+                

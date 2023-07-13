@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> HTML Tags</title>
+    <style></style>
+    <script></script>
+    </head>
+    <body>
+        <div>
+            <h2>HTML Tags</h2>
+            <blockquote>None Of Us Is As Strong As All Of Us</blockquote>
+            <cite>Bhagwad Geeta</cite>
+            <br><hr>
+            Code for alert<br>
+            <code>
+                var message = "hello world";
+                alert('${message}')
+            </code>
+            <hr>
+            e<sup>-100</sup><br><br>
+            H<sub>2</sub>O
+            <hr>
+        </div>
+    </body>
+</html>
+
+
+
